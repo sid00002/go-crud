@@ -1,4 +1,5 @@
-# Book Store Management
+
+# GO CRUD
 
 ## Table of Contents
 
@@ -14,6 +15,13 @@
 - **CompileDaemon**: Used for hot reload
 - **GoDotEnv**: To configure environment files
 
+## Routes
+
+- /posts/ Get aall the books stored in DB
+- /posts/ (POST) Create a new Book
+- /posts/:id (GET) Get existing book by bookId
+- /posts/:id (PUT) Update a Book
+
 ## Installation
 
 To install the project dependencies, follow these steps:
@@ -27,3 +35,8 @@ cd go-crud
 
 # Tidy up Go module dependencies
 go mod tidy
+
+
+
+
+
